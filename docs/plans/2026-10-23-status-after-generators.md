@@ -1,6 +1,6 @@
 # Status: Generatoren gepusht – nächster Schritt Issue #1
 
-Stand 2026-10-23, Branch `worktree-init` (= `origin/main` @ `f7038ca` + Handoff-Commit).
+Stand 2026-10-23 (geprüft 2026-11-20, unverändert), Branch `worktree-init` (= `origin/main` @ `f7038ca` + Handoff-Commit).
 
 ## Erledigt
 
@@ -30,3 +30,9 @@ Issue-Inhalt (Label `needs-enrichment`, also noch kein Spec/Plan):
 - Akzeptanz: Tablet hochkant 768px ohne Tastatur bedienbar, kein horizontales Scrollen, Name des Kindes erscheint nirgends
 
 Vorgehen: Issue zuerst anreichern (`/enrich 1`: Spec + Plan), dann umsetzen. Das Repo hat (Stand heute) keine agent-workflow-Pipeline (kein `.github/workflows/`). Deshalb lokal mit `superpowers:subagent-driven-development` umsetzen.
+
+## Kleinkram (offen, kein eigener Task)
+
+- Handoff-Commits liegen nur auf `origin/worktree-init`, nicht auf `main`. Mergen, falls gewünscht.
+- Der lokale `main` im Haupt-Checkout steht auf `235f7df` und braucht ein `git pull`.
+- `~/LocalSend/generators.js` und `generators.test.mjs` sind committet und können gelöscht werden.
